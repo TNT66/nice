@@ -31,7 +31,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         directory: master
-        github_token: ${{ secrets.111 }}
+        github_token: ${{ secrets.fly }}
         branch: master
 
     - name: Clone Main
@@ -41,7 +41,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         directory: main
-        github_token: ${{ secrets.111 }}
+        github_token: ${{ secrets.fly }}
         branch: main
 
     - name: Delete workflow runs

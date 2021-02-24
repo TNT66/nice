@@ -1,4 +1,4 @@
-name: sync-jd_scripts
+name: 学习拉库
 
 on:
   workflow_dispatch:

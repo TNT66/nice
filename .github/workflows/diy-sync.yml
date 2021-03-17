@@ -22,7 +22,7 @@
 name: diy-sync
 on:
   schedule:
-    - cron: '5 */12 * * *'
+    - cron: '5 */4 * * *'
   workflow_dispatch:
   watch:
     types: started

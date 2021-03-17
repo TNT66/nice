@@ -42,7 +42,7 @@ on:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Hydrahail-Johnson/diy_scripts.git"
+          source_repo: "https://hub.fastgit.org/SuperManito/JD-FreeFuck.git"
           source_branch: "main"
           destination_branch: "diy"
           github_token: ${{ secrets.PAT }}

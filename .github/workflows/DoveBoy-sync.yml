@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync 6Svip120apk69-gitee_q8qsTAUA_cThxc1RBVUE
+      - name: sync DoveBoy
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/DoveBoy/jd_scripts-gitee.git"
+          source_repo: "https://github.com/DoveBoy/a.git"
           source_branch: "master"
           destination_branch: "DoveBoy"
           github_token: ${{ secrets.PAT }}

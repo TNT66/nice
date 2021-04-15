@@ -1,7 +1,7 @@
 name: xbt370-JD
 on:
   schedule:
-    - cron: '4 */3 * * *'
+    - cron: '4 * * * *'
   workflow_dispatch:
   watch:
     types: started
